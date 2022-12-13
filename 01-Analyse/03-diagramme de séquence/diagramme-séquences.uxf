@@ -1,0 +1,43 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><element><id>UMLGeneric</id><coordinates><x>380</x><y>170</y><w>100</w><h>30</h></coordinates><panel_attributes>hôpital
+bg=white</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>420</x><y>190</y><w>30</w><h>540</h></coordinates><panel_attributes>fg=yellow</panel_attributes><additional_attributes>10;10;10;520</additional_attributes></element><element><id>UMLActor</id><coordinates><x>0</x><y>130</y><w>80</w><h>110</h></coordinates><panel_attributes>secrétaire
+fg=#ff33b0</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>30</x><y>170</y><w>30</w><h>560</h></coordinates><panel_attributes>fg=yellow</panel_attributes><additional_attributes>10;10;10;540</additional_attributes></element><element><id>Relation</id><coordinates><x>30</x><y>240</y><w>420</w><h>40</h></coordinates><panel_attributes>ouvrir l'application
+lt=&lt;&lt;&lt;-
+fg=green</panel_attributes><additional_attributes>400;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>30</x><y>360</y><w>420</w><h>40</h></coordinates><panel_attributes>créer un rendez vous 
+lt=&lt;&lt;&lt;-
+fg=green</panel_attributes><additional_attributes>400;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>30</x><y>320</y><w>430</w><h>50</h></coordinates><panel_attributes>authentification réussi
+lt=.&gt;
+fg=#33c8ff</panel_attributes><additional_attributes>403;22;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>30</x><y>400</y><w>420</w><h>40</h></coordinates><panel_attributes>consulter dossier médical
+lt=&lt;&lt;&lt;-
+fg=green</panel_attributes><additional_attributes>400;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>30</x><y>560</y><w>430</w><h>50</h></coordinates><panel_attributes>rendez-vous enregistré
+lt=.&gt;
+fg=#33c8ff</panel_attributes><additional_attributes>403;22;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>30</x><y>280</y><w>420</w><h>40</h></coordinates><panel_attributes>s'identifier
+lt=&lt;&lt;&lt;-
+fg=green</panel_attributes><additional_attributes>400;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>30</x><y>520</y><w>420</w><h>40</h></coordinates><panel_attributes>renseigner les données 
+lt=&lt;&lt;&lt;-
+fg=green</panel_attributes><additional_attributes>400;20;10;20</additional_attributes></element><element><id>UMLActor</id><coordinates><x>740</x><y>140</y><w>60</w><h>110</h></coordinates><panel_attributes>patient
+fg=#ff3355</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>760</x><y>180</y><w>30</w><h>540</h></coordinates><panel_attributes>fg=yellow</panel_attributes><additional_attributes>10;520;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>420</x><y>600</y><w>370</w><h>40</h></coordinates><panel_attributes>email envoyé au patient
+lt=&lt;.
+fg=#33c8ff</panel_attributes><additional_attributes>350;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>30</x><y>440</y><w>420</w><h>40</h></coordinates><panel_attributes>dossier médical inexistant
+lt=.&gt;
+fg=red</panel_attributes><additional_attributes>400;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>30</x><y>480</y><w>420</w><h>50</h></coordinates><panel_attributes>créer dossier médical
+lt=&lt;&lt;&lt;-
+
+fg=green</panel_attributes><additional_attributes>400;20;10;20</additional_attributes></element><element><id>UMLNote</id><coordinates><x>860</x><y>240</y><w>400</w><h>360</h></coordinates><panel_attributes>Description detaillée
+Nom = créer un rendez-vous
+Acteur = secrétaire, patient
+Données d'entrée = rendez-vous demander par le patient
+Scénario principal : 
+1. La secrétaire ouvre l'application
+2. La secrétaire s'identifie 
+3. La secrétaire crée le rendez vous en donnant la date et l'heure 
+4. La secrétaire consulte le dossier médicale du patient 
+5. Le rendez vous est crée 
+Scénario d'erreur :
+1.a) Le rendez vous attribué est déja créer
+Retour a l'étape 1 
+Scénario alternatif :
+4.a) Le patient n'a pas de dossier médical
+La secrétaire lui en crée un 
+Retour a l'étape 4
+bg=#33ffbd
+fg=white</panel_attributes><additional_attributes></additional_attributes></element></diagram>
