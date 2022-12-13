@@ -1,0 +1,11 @@
+C:\Users\binantm\OneDrive - Fénelon Notre-Dame (1)\AP\GROUPE2\06-Application Lourde\ApplicationLourdeAPv1\Test1\bin\Debug\Test1.exe.config
+C:\Users\binantm\OneDrive - Fénelon Notre-Dame (1)\AP\GROUPE2\06-Application Lourde\ApplicationLourdeAPv1\Test1\bin\Debug\Test1.exe
+C:\Users\binantm\OneDrive - Fénelon Notre-Dame (1)\AP\GROUPE2\06-Application Lourde\ApplicationLourdeAPv1\Test1\bin\Debug\Test1.pdb
+C:\Users\binantm\OneDrive - Fénelon Notre-Dame (1)\AP\GROUPE2\06-Application Lourde\ApplicationLourdeAPv1\Test1\obj\Debug\Test1.csproj.AssemblyReference.cache
+C:\Users\binantm\OneDrive - Fénelon Notre-Dame (1)\AP\GROUPE2\06-Application Lourde\ApplicationLourdeAPv1\Test1\obj\Debug\Test1.csproj.SuggestedBindingRedirects.cache
+C:\Users\binantm\OneDrive - Fénelon Notre-Dame (1)\AP\GROUPE2\06-Application Lourde\ApplicationLourdeAPv1\Test1\obj\Debug\Test1.Patient.resources
+C:\Users\binantm\OneDrive - Fénelon Notre-Dame (1)\AP\GROUPE2\06-Application Lourde\ApplicationLourdeAPv1\Test1\obj\Debug\Test1.Properties.Resources.resources
+C:\Users\binantm\OneDrive - Fénelon Notre-Dame (1)\AP\GROUPE2\06-Application Lourde\ApplicationLourdeAPv1\Test1\obj\Debug\Test1.csproj.GenerateResource.cache
+C:\Users\binantm\OneDrive - Fénelon Notre-Dame (1)\AP\GROUPE2\06-Application Lourde\ApplicationLourdeAPv1\Test1\obj\Debug\Test1.csproj.CoreCompileInputs.cache
+C:\Users\binantm\OneDrive - Fénelon Notre-Dame (1)\AP\GROUPE2\06-Application Lourde\ApplicationLourdeAPv1\Test1\obj\Debug\Test1.exe
+C:\Users\binantm\OneDrive - Fénelon Notre-Dame (1)\AP\GROUPE2\06-Application Lourde\ApplicationLourdeAPv1\Test1\obj\Debug\Test1.pdb
