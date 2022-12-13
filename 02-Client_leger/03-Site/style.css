@@ -86,7 +86,7 @@ input[type=date], input[type=number]{
 
 /* Set a style for all buttons */
 input[type=submit] {
-  background-color: #53af57;
+  background-color: #af5353;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -96,8 +96,8 @@ input[type=submit] {
 }
 input[type=submit]:hover {
   background-color: white;
-  color: #53af57;
-  border: 1px solid #53af57;
+  color: #af5953;
+  border: 1px solid #af5353;
 }
 /* fond blanc login*/
 form {
@@ -121,7 +121,7 @@ padding-left: 33%;
 
 
 .bordure {
-  border: thick double #05b12a;
+  border: thick double #b10505;
   }
  
 

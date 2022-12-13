@@ -13,7 +13,7 @@
 </head>
 <body>
 
-    <iframe id="frameinfo" src="images/Projet_fenelon.pdf" scrolling="auto" frameborder="0" allowtransparency="true" style="height:100%;width:100%"></iframe>
+    <iframe id="frameinfo" src="Document_technique.pdf" scrolling="auto" frameborder="0" allowtransparency="true" style="height:100%;width:100%"></iframe>
 
 
 </body>

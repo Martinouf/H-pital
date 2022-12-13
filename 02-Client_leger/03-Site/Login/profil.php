@@ -1,11 +1,11 @@
 <?php
-$username = $_POST["username"];
-$email = $_POST["email"];
+$username = $_POST["Username"];
+$password = $_POST["Password"];
 
-$servername = "172.16.199.254";
+$servername = "localhost";
 $username = "root";
-$password = "";
-$db = "hopital";
+$password = "azertysio";
+$db = "Hopital";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $db);
@@ -16,7 +16,7 @@ if ($conn->connect_error) {
 }
 echo "Connected successfully <br><br>";
 
-$sql = "SELECT * FROM $username, $email WHERE $username.username = $email.email";
+$sql = "SELECT * FROM $username, $password WHERE $username.Username = $password.Password";
 $result = $conn->query($sql);
 
 $conn->close();

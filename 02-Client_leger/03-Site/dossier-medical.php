@@ -21,21 +21,41 @@
         <br>
         <b> *  Les champs sont obligatoires. </b>
 
-            <h1>Formulaire - Ajout patient</h1>
-            <label><b>Nom patient *</b></label>
-            <input type="text" placeholder="Entrer le nom du patient " name="nom" required>
+            <h1>Formulaire - Ajout dossier médicale</h1>
+
+            
+
+            <label><b>Numero dossier*</b></label>
+            <input type="number" placeholder="Entrer son numero de dossier " name="dossier" required>
+
+            <label><b>Prénom de la personne*</b></label>
+            <input type="text" placeholder="Entrer le prénom de la personne  " name="prenom" required>
             <br>
 
-            <label><b>Prénom patient *</b></label>
-            <input type="text" placeholder="Entrer le prénom du patient " name="prenom" required>
+            <label><b>Nom de la personne *</b></label>
+            <input type="text" placeholder="Entrer le nom de la personne  " name="nom" required>
             <br>
 
-            <label><b>Date de naissance du patient</b></label>
+            
+
+            <label><b>Nom de jeune fille/Garçon *</b></label>
+            <input type="text" placeholder="Entrer son nom de jeune fille/garcon " name="jeune" required>
+
+            <label><b>Date de naissance du patient*</b></label>
             <input type="date" placeholder="Entrer sa date de naissance " name="date" required>
             <br>
 
-            <label><b>Numero dossier</b></label>
-            <input type="number" placeholder="Entrer son numero de dossier " name="dossier" required>
+            <label><b>Telephone *</b></label>
+            <input type="text" placeholder="Entrer son numero de telephone  " name="telephone" required>
+
+            <label><b>Adresse*</b></label>
+            <input type="text" placeholder="Entrer son adresse " name="adresse" required>
+
+            
+            
+            
+
+
 
             
             
